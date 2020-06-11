@@ -1,0 +1,22 @@
+#main_author {
+  display: block;
+  position: absolute;
+  top: 35%;
+  margin-top: -25px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  color: #e73827;
+  text-shadow: 0px 0px 10px #b2e1ff; }
+  @media (max-width: 768px) {
+    #main_author {
+      top: 30%;
+      padding: 0px 20px; } }
+  #main_author h1 {
+    font-size: 70px;
+    font-family: 'Piedra', cursive; }
+  #main_author h3 {
+    font-size: 35px;
+    font-family: 'Indie Flower', cursive; }
+
+/*# sourceMappingURL=body_author.css.map */

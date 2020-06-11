@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'PN1';
+  src: url("../fonts/ProximaNovaLight.eot");
+  src: url("../fonts/ProximaNovaLight.eot") format("embedded-opentype"), url("../fonts/ProximaNovaLight.woff2") format("woff2"), url("../fonts/ProximaNovaLight.woff") format("woff"), url("../fonts/ProximaNovaLight.ttf") format("truetype"), url("../fonts/ProximaNovaLight.svg#ProximaNovaLight") format("svg"); }
+@font-face {
+  font-family: 'PN2';
+  src: url("../fonts/ProximaNovaRegular.eot");
+  src: url("../fonts/ProximaNovaRegular.eot") format("embedded-opentype"), url("../fonts/ProximaNovaRegular.woff2") format("woff2"), url("../fonts/ProximaNovaRegular.woff") format("woff"), url("../fonts/ProximaNovaRegular.ttf") format("truetype"), url("../fonts/ProximaNovaRegular.svg#ProximaNovaRegular") format("svg"); }
+@font-face {
+  font-family: 'PN3';
+  src: url("../fonts/ProximaNovaSimibold.eot");
+  src: url("../fonts/ProximaNovaSimibold.eot") format("embedded-opentype"), url("../fonts/ProximaNovaSimibold.woff2") format("woff2"), url("../fonts/ProximaNovaSimibold.woff") format("woff"), url("../fonts/ProximaNovaSimibold.ttf") format("truetype"), url("../fonts/ProximaNovaSimibold.svg#ProximaNovaSimibold") format("svg"); }
+@font-face {
+  font-family: 'PN4';
+  src: url("../fonts/ProximaNovaBold.eot");
+  src: url("../fonts/ProximaNovaBold.eot") format("embedded-opentype"), url("../fonts/ProximaNovaBold.woff2") format("woff2"), url("../fonts/ProximaNovaBold.woff") format("woff"), url("../fonts/ProximaNovaBold.ttf") format("truetype"), url("../fonts/ProximaNovaBold.svg#ProximaNovaBold") format("svg"); }
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block; }
+
+* {
+  font-family: PN1, sans-serif;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  /*transition: all 0.4s ease;*/ }
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+  outline: 0; }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
+.checkbox, .radio {
+  display: inline; }
+
+.label {
+  color: #000; }
+
+li {
+  list-style: none; }
+
+body {
+  background-color: #28343b;
+  color: #fff;
+  position: relative;
+  overflow-x: hidden; }
+
+/* bootstrap overwrite start*/
+ol, ul {
+  margin-bottom: 0px; }
+
+body {
+  line-height: 1; }
+
+a:hover {
+  text-decoration: none; }
+
+/* bootstrap overwrite end*/
+[hidden] {
+  display: none; }
+
+[red] {
+  border: 1px solid #fff; }
+
+[clr] {
+  clear: both; }
+
+/*# sourceMappingURL=global.css.map */

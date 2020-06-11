@@ -1,0 +1,89 @@
+
+.section_target[section="experience"]{
+	.container_content{
+		.exp_container{
+			min-height: 180px;
+		
+		
+			margin: 10px 0px;
+
+
+			.exp_date_con {
+				
+				border: 1px solid #337ab7;
+				border-radius: 50%;
+				text-align: center;
+				width: 120px;
+				height: 120px;
+				vertical-align: middle;
+				margin: 0px auto;
+			    align-items: center;
+			    justify-content: center;
+ 				display: flex;
+				display: -webkit-flex; 
+				display: -ms-flexbox; 
+
+				@media (max-width: 768px) {
+					margin: 5px auto 20px;
+				}
+
+/*
+				span{
+					display: flex;
+					align-items: center;
+				}
+				
+				width: 0;
+				height: 0;
+				border: 70px solid transparent;
+				border-bottom-color: #337ab7;
+				position: relative;
+				top: -70px;
+
+				
+				&:after {
+					content: '';
+					position: absolute;
+					left: -70px;
+					top: 70px;
+					width: 0;
+					height: 0;
+					border: 70px solid transparent;
+					border-top-color: #337ab7;
+				}
+
+				span{
+					position: absolute;
+					border: 0px solid #fff;
+					left: -37px;
+					top: 37px;
+					width: 70px;
+					z-index: 1;
+					text-align: center;
+				}
+				*/
+				
+			}
+			
+
+			.exp_desc_con{
+				.exp_company{
+					font-size: 24px;
+					padding: 5px;
+					font-weight: 600;
+				}
+				.exp_job{
+					font-size: 15px;
+					padding: 5px;
+					border-bottom: 1px solid #337ab7;
+				}
+				.exp_desc{
+					padding: 5px;
+				}
+
+			}
+		}
+	}
+
+}
+
