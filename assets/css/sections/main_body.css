@@ -554,18 +554,27 @@
     .section_target[section="contact"] .container_content .form__textarea:valid {
       height: 2em; }
   .section_target[section="contact"] .container_content .contact_details {
-    padding: 20px; }
-    @media (max-width: 768px) {
+    padding: 20px;
+    text-align: center; }
+    @media (max-width: 992px) {
       .section_target[section="contact"] .container_content .contact_details {
         padding: 20px 5px;
         text-align: center; } }
-    .section_target[section="contact"] .container_content .contact_details .contact_detail_title {
-      font-weight: 600;
-      border-bottom: 1px solid #9b9b9b;
-      padding: 10px 20px;
-      margin: 10px 0px; }
-    .section_target[section="contact"] .container_content .contact_details i {
-      margin: 0px 10px; }
+    .section_target[section="contact"] .container_content .contact_details p {
+      margin: 20px 0px; }
+      .section_target[section="contact"] .container_content .contact_details p i {
+        margin: 0px 10px; }
+  .section_target[section="contact"] .container_content .contact_form {
+    padding: 20px;
+    text-align: center; }
+  .section_target[section="contact"] .container_content .contact_detail_title {
+    font-weight: 600;
+    margin: 10px;
+    text-align: center; }
+  .section_target[section="contact"] .container_content hr {
+    width: 90%;
+    display: block;
+    margin: 0px auto; }
 
 /* --------------------------------------
 	body-projects

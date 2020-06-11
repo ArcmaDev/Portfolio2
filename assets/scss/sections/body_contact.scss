@@ -89,19 +89,34 @@
 
 		.contact_details{
 			padding: 20px;
-			@media (max-width: 768px){
+			text-align: center;
+			@media (max-width: 992px){
 				padding: 20px 5px;
 				text-align: center;
 			}
-			.contact_detail_title{
-				font-weight: 600;
-				border-bottom: 1px solid #9b9b9b;
-				padding: 10px 20px;
-				margin: 10px 0px;
+
+			p{
+				margin: 20px 0px;
+				i{
+					margin: 0px 10px;
+				}
 			}
-			i{
-				margin: 0px 10px;
-			}
+		}
+		.contact_form{
+			padding: 20px;
+			text-align: center;
+		}
+		.contact_detail_title{
+			font-weight: 600;
+			margin: 10px;
+			text-align: center;
+
+			
+		}
+		hr{
+			width: 90%;
+			display: block;
+			margin: 0px auto;
 		}
 	}
 }
