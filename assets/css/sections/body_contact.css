@@ -69,6 +69,11 @@
       margin: 20px 0px; }
       .section_target[section="contact"] .container_content .contact_details p i {
         margin: 0px 10px; }
+      .section_target[section="contact"] .container_content .contact_details p a {
+        color: #fff; }
+        .section_target[section="contact"] .container_content .contact_details p a:hover {
+          transition: all 0.3s ease;
+          text-shadow: 0px 0px 10px #EDE100; }
   .section_target[section="contact"] .container_content .contact_form {
     padding: 20px;
     text-align: center; }

@@ -678,14 +678,18 @@
 									<p 	data-aos="fade-up"
 										data-aos-delay="800"
 										data-aos-duration="1200">
-										<i class="fa fa-phone"></i>
-										+(63) 939 553 2561
+										<a href="tel:63 939 553 2561" target="_self">
+											<i class="fa fa-phone"></i>
+											+(63) 939 553 2561
+										</a>
 									</p>
 									<p 	data-aos="fade-up"
 										data-aos-delay="1000"
 										data-aos-duration="1200">
-										<i class="fa fa-paper-plane"></i>
-										arcma@yahoo.com
+										<a href="mailto:arcma@yahoo.com" target="_self">
+											<i class="fa fa-paper-plane"></i>
+											arcma@yahoo.com
+										</a>
 									</p>
 									<p 	data-aos="fade-up"
 										data-aos-delay="1200"
@@ -693,6 +697,17 @@
 										<i class="fa fa-skype"></i>
 										archie.arcma
 									</p>
+									<p 	data-aos="fade-up"
+										data-aos-delay="1200"
+										data-aos-duration="1400">
+										<a 	href="https://www.linkedin.com/in/archie-ledesma-b2a928106/" 
+											target="_blank">
+											<i class="fa fa-linkedin"></i>
+											Archie Ledesma
+										</a>
+									</p>
+
+									
 								</div>
 							</div>
 							<div class="col-sm-6 col-xs-12">
@@ -735,10 +750,13 @@
 										SEND MESSAGE! <i class="fa fa-paper-plane"></i>
 									</div>
 								</div>
+								
 							</div>
 
 						</div>
+						
 					</div>
+					<div id="map"></div>
 				</div>
 			</div>
 			
@@ -746,11 +764,39 @@
 
 		
 	</main>
+	<style>
+		#map{
+			height: 40vh;
+			width: 100%;
+		}
+	</style>
 	<footer id="main_footer">
-			© 2019 Archie Ledesma
+			© 2020 Archie Ledesma
 	</footer>
+
 	
+
+	<script type="text/javascript">
+        function initMap() {
+            var uluru = {lat: 10.788121, lng: 122.975852};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                center: uluru,
+                scrollwheel: false,
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+                });
+        }
+    </script>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3MFkw948v6unj2QMUQWaqjbf0ktmibQA&callback=initMap"></script>
 	
+
+	<!--script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCB99MPtjf5xz738qKTwodGmuKxXHy0cA&callback=initMap"></script-->
+
+
 	<script src="assets/lib/js/jquery-1.11.3.min.js"></script>
 	<script src="assets/lib/js/jquery-migrate.min.js"></script>
 	<script src="assets/lib/js/bootstrap.min.js"></script>
