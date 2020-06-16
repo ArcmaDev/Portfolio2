@@ -123,6 +123,7 @@ function main_skills(){
 		win_height_padded = $window.height() * 1.1,
 		skill_container_top = $(".section_target[section='skills']").offset().top;
 		
+
 		
 		$window.on('load', revealOnScroll);
 		$window.on('scroll', revealOnScroll);
@@ -133,12 +134,16 @@ function main_skills(){
 			
 			var parallax_h = $('.parallax-mirror').height(),
 				main_menu_container_h = $('.main_menu_container').height(),
-				position = skill_container_top + parallax_h - 30;
+				position = skill_container_top + parallax_h - 30,
+				maxWidth = 768,
 				scrolled = $window.scrollTop();
 
 			//console.log(scrolled + win_height_padded +" > "+ position);
 			if (scrolled + win_height_padded > position) {
 				$elem_con.addClass('done_animate');
+
+
+
 
 				var count = 0;
 				$(".skill_type").each(function () {
@@ -146,11 +151,21 @@ function main_skills(){
 					$skill_type.removeClass("no_display").addClass("animate__animated animate__fadeInUp");
 					
 
-					if(count >= 1){
-						$skill_type.addClass("animate__delay-"+count+"s");
+					
+
+					if(window.innerWidth > maxWidth){
+						var	ms = (count * 1000) + 1200;
+
+						if(count >= 1){
+							$skill_type.addClass("animate__delay-"+count+"s");
+						}
+					}else{
+						var ms = 0;
 					}
 					
-					var	ms = (count * 1000) + 1200;
+					console.log('dipota');
+					console.log(ms);
+
 					setTimeout(function(){
 						$skill_type.find(".progress").each(function(){
 							var val = $(this).attr("data-width")+"%";
