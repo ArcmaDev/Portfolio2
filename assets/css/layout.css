@@ -394,16 +394,21 @@ a:hover {
 /* --------------------------------------
 	body-about
 -----------------------------------------*/
+[section="about"] p {
+  line-height: 20px;
+  margin: 15px;
+  font-size: 16px; }
+
 /* --------------------------------------
 	body-skills
 -----------------------------------------*/
-.section_target[section="skills"] .container_content .skill_row_header {
+.container_content .skill_row_header {
   text-shadow: 0px 0px 10px #EDE100;
   border-bottom: 1px solid #fff;
   margin-bottom: 30px; }
-  .section_target[section="skills"] .container_content .skill_row_header span {
+  .container_content .skill_row_header span {
     display: block; }
-.section_target[section="skills"] .container_content .skill_title {
+.container_content .skill_title {
   font-size: 12px; }
 
 /* --------------------------------------

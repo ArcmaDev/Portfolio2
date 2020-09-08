@@ -121,7 +121,7 @@ function main_menu_fix_scroll(scroll,menu_height){
 function main_skills(){
 	var $window           = $(window),
 		win_height_padded = $window.height() * 1.1,
-		skill_container_top = $(".section_target[section='skills']").offset().top;
+		skill_container_top = $("[section='skills']").offset().top;
 		
 
 		
@@ -129,7 +129,7 @@ function main_skills(){
 		$window.on('scroll', revealOnScroll);
 	
 	function revealOnScroll() {
-		$elem_con = $(".section_target[section='skills']");
+		$elem_con = $("[section='skills']");
 		if(!$elem_con.hasClass('done_animate')){
 			
 			var parallax_h = $('.parallax-mirror').height(),
@@ -190,7 +190,8 @@ function main_skills(){
 	}
 
 	function do_progress_skills(){
-		$(".skill_container .progress").each(function(){
+		
+		$("[section='skills'] .progress").each(function(){
 			var val = $(this).attr("data-width")+"%";
 
 			$(this).find(".progress-bar").css({'width':val}).html(val);

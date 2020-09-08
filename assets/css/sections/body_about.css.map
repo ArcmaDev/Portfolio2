@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AACC,mBAAC;EACA,WAAW,EAAE,IAAI;EACd,MAAM,EAAE,IAAI;EACX,SAAS,EAAE,IAAI",
+"sources": ["../../scss/sections/body_about.scss"],
 "names": [],
 "file": "body_about.css"
 }

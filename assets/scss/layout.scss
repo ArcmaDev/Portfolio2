@@ -1,19 +1,19 @@
 /* --------------------------------------
 	Global
 -----------------------------------------*/
-@import 'sections/global';
+@import 'sections/_global';
 /* --------------------------------------
 	Header
 -----------------------------------------*/
-@import 'sections/main_header';
+@import 'sections/_header';
 /* --------------------------------------
 	Global
 -----------------------------------------*/
-@import 'sections/main_body';
+@import 'sections/_body';
 /* --------------------------------------
 	footer
 -----------------------------------------*/
-@import 'sections/main_footer';
+@import 'sections/_footer';
 
 
 .parallax-window {
